@@ -28,7 +28,7 @@ public class MahasiswaDemo {
         System.out.println("------------------------------------");
 
         System.out.println("NIM    : " + arrayOfMahasiswa14s[1].nim);
-        System.out.println("Nama   : " + arrayOfMahasiswa14s[1].nama);
+        System.out.println("Nama   : " + arrayOfMahasiswa14s[1].nama); 
         System.out.println("Kelas  : " + arrayOfMahasiswa14s[1].kelas);
         System.out.println("IPK    : " + arrayOfMahasiswa14s[1].ipk);
         System.out.println("------------------------------------");
