@@ -8,20 +8,15 @@ class StackTugasMahasiswa14 {
         stack = new Mahasiswa14[size];
         top = -1;
     }
+
     public boolean isFull() {
-        if (top == size - 1) {
-            return true;
-        } else {
-            return false;
-        }
+        return top == size - 1;
     }
+
     public boolean isEmpty() {
-        if (top == -1) {
-            return true;
-        } else {
-            return false;
-        }
+        return top == -1;
     }
+
     public void push (Mahasiswa14 mhs) {
         if (!isFull()) {
             top++;
@@ -30,6 +25,7 @@ class StackTugasMahasiswa14 {
             System.out.println("Stack penuh! tidak bisa menambahkan tugas lagi");
         }
     }
+
     public Mahasiswa14 pop() {
         if (!isEmpty()) {
             Mahasiswa14 m = stack[top];
@@ -40,6 +36,7 @@ class StackTugasMahasiswa14 {
             return null;
         }
     }
+
     public Mahasiswa14 peek() {
         if (!isEmpty()) {
             return stack[top];
@@ -48,24 +45,12 @@ class StackTugasMahasiswa14 {
             return null;
         }
     }
+
     public void print() {
         for (int i = 0; i <= top; i++) {
             System.out.println(stack[i].nama + "\t" + stack[i].nim + "\t" + stack[i].kelas);
         }
         System.out.println("");
-    }
-    public String KonversidesimalKeBiner(int desimal) {
-        String biner = "";
-        while (desimal > 0) {
-            int sisa = desimal % 2;
-            biner = sisa + biner;
-            desimal = desimal / 2;
-        }
-        String biner = new String();
-        while (!stack.isEmpty()) {
-            biner += stack.pop()
-        }
-        return biner;
     }
 
     Mahasiswa14 lihatTugasTerbawah() {
@@ -77,4 +62,8 @@ class StackTugasMahasiswa14 {
         }
     }
 
+    public String konversiDesimalKeBiner(int nilai) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'konversiDesimalKeBiner'");
+    }
 }

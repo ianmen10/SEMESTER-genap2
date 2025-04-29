@@ -14,5 +14,4 @@ class Mahasiswa14 {
     void tugasDinilai(int nilai) {
         this.nilai = nilai;
     }
-
 }
