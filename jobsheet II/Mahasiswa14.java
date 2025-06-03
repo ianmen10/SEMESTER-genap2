@@ -4,6 +4,9 @@ public class Mahasiswa14 {
         String kelas;
         double ipk;
 
+        public Mahasiswa14(String string, String string2, String string3, double d) {
+            //TODO Auto-generated constructor stub
+        }
         void tampilkanInformasi() {
             System.out.println(" Nama: " + nama);
             System.out.println("NIM: " + nim);
@@ -34,5 +37,9 @@ public class Mahasiswa14 {
         public void cetakInfo() {
             // TODO Auto-generated method stub
             throw new UnsupportedOperationException("Unimplemented method 'cetakInfo'");
+        }
+        public void tampil() {
+            // TODO Auto-generated method stub
+            throw new UnsupportedOperationException("Unimplemented method 'tampil'");
         }
     }
